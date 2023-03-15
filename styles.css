@@ -1,7 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-
+    font-family: Roboto, "sans serif";
     height: 100vh;
 }
 
@@ -17,18 +17,50 @@ body {
 .information {
     flex: 1;
 }
-.quote {
+.quote-container {
     flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 84px 15vw;
+    
 }
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 100;
+    font-style: italic;
+    
+    
+    
+}
+
+.quote-author {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: right;
+    align-self: flex-end;
+    padding-right: 16px;
+}
+
 .signup {
     flex: 1;
 }
 .footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    padding: 16px 0;
 }
 
 .header-links {
     display: flex;
+    flex-shrink: 0;
     gap: 16px;
+    align-items: center;
 
     list-style: none;
     margin: 0;
@@ -39,6 +71,8 @@ body {
     margin: 0 auto 0 0;
     color: #F9FAF8;
     font-size: 24px;
+    white-space: nowrap;
+    padding: 0 16px 0 0;
 
 }
 
