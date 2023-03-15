@@ -1,23 +1,51 @@
 body {
     display: flex;
     flex-direction: column;
+
+    height: 100vh;
 }
 
 .header {
+    display: flex;
 
+    background-color: #1F2937;
+    padding: 16px 15vw;
 }
 .hero {
-
+    flex: 1;
 }
 .information {
-
+    flex: 1;
 }
 .quote {
-
+    flex: 1;
 }
 .signup {
-    
+    flex: 1;
 }
 .footer {
-    
 }
+
+.header-links {
+    display: flex;
+    gap: 16px;
+
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-logo {
+    margin: 0 auto 0 0;
+    color: #F9FAF8;
+    font-size: 24px;
+
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+
