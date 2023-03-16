@@ -25,6 +25,7 @@ body {
 .info-container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 32px;
 }
 
@@ -66,12 +67,51 @@ body {
     text-align: right;
     align-self: flex-end;
     padding-right: 16px;
+    max-width: 800px;
 }
 
 .signup {
     flex: 1;
     min-height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.signup-box {
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    width: 60vw;
+    max-width: 650px;
+    padding: 2em 3em;
+    color: #E5E7EB;
+    border-radius: 8px;
+    
+}
+
+.signup-box h3 {
+    color: #F9FAF8;
+    padding: 0;
+    margin: 0;
+}
+
+.signup-box button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+    white-space: nowrap;
+    font-size: 14px;
+    font-weight: 700;
+    flex-shrink: 0;
+    margin-left: 16px;
+    height: 2.5em;
+   
+}
+
 .footer {
     text-align: center;
     background-color: #1f2937;
